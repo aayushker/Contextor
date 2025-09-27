@@ -1,7 +1,7 @@
 import logging
-from wikipedia import get_wikipedia_summary
-from newsRSS import get_google_news_summary
-from Search import get_duckduckgo_snippets
+from .Wikipedia import get_wikipedia_summary
+from .newsRSS import get_google_news_summary
+from .Search import get_duckduckgo_snippets
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
